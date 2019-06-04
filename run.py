@@ -6,9 +6,9 @@ from inventory import Inventory
 
 def main():
 
-    item1=Menu(1,'soap', 2.25)
+    item1=Menu(1,'fries', 2.25)
     item2=Menu(2,'cookies', 4.43)
-    item3 =Menu(3,'milk', 2.45)
+    item3 =Menu(3,'Cheese Burger', 2.45)
 
     inventory = Inventory()
     inventory.addItem(item1)
